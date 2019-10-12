@@ -2,7 +2,7 @@
 --задания ко 2 уроку
 CREATE DATABASE IF NOT EXISTS example;
 USE example;
-CREATE TABLE IF EXISTS user(id INT (128), name VARCHAR (128));
+CREATE TABLE IF NOT EXISTS user(id INT (128), name VARCHAR (128));
 
 CREATE DATABASE IF NOT EXISTS simple;
 
